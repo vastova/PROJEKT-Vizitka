@@ -23,16 +23,16 @@ tlačítko Facebook aktivní: #2b406e
      font-size: 36px;
      font-weight: 700;
      margin: 0;
- }
+    }
 
  p {
      font-size: 18px;
- }
+    }
  .box a {
      font-size: 18px;
      font-weight: 700;
      text-transform: uppercase;
- }
+    }
 
  .box {
      width: 550px;
@@ -44,7 +44,7 @@ tlačítko Facebook aktivní: #2b406e
      padding: 30px;
      border-radius: 10px;
      box-shadow: 0 10px 10px 0 gray;
- }
+    }
  img {
      width: 150px;
      border-radius: 50%;
@@ -52,8 +52,7 @@ tlačítko Facebook aktivní: #2b406e
      position: absolute;
      top: -75px;
      right: -75px;
-
- }
+    }
  .contact a{
     text-decoration: none;
          }
@@ -62,6 +61,7 @@ tlačítko Facebook aktivní: #2b406e
         padding-left: 0;
         margin: 0;
      }
+
 .twitter {
     background-color: #1da1f2;
     color: white;
@@ -70,7 +70,9 @@ tlačítko Facebook aktivní: #2b406e
     display: block;
     text-align: center;
     border-radius: 5px;
-}
+    }
+
+.twitter:hover {background-color: #0b7bc1;}
  
 .facebook {
     background-color: #3b5998;
@@ -80,4 +82,5 @@ tlačítko Facebook aktivní: #2b406e
     text-align: center;
     border-radius: 5px;
 }
+.facebook:hover {background-color: #2b406e;}
  
