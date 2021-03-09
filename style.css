@@ -27,6 +27,7 @@ tlačítko Facebook aktivní: #2b406e
 
  p {
      font-size: 18px;
+     margin-bottom: 30px;
     }
  .box a {
      font-size: 18px;
@@ -38,7 +39,7 @@ tlačítko Facebook aktivní: #2b406e
      width: 550px;
      background-color: whitesmoke;
      position: relative;
-     margin: 150px;
+     margin: 150px 0 0 0 ;
      margin-left: auto;
      margin-right: auto;
      padding: 30px;
@@ -61,26 +62,26 @@ tlačítko Facebook aktivní: #2b406e
         padding-left: 0;
         margin: 0;
      }
+     
+.twitter, .facebook {
+color: white;  
+padding: 10px 0 10px 0;
+display: block;
+text-align: center;
+border-radius: 5px;
+}
 
 .twitter {
     background-color: #1da1f2;
-    color: white;
-    margin-bottom: 5px;
-    padding: 10px 0 10px 0;
-    display: block;
-    text-align: center;
-    border-radius: 5px;
-    }
+       margin-bottom: 5px;
+        }
+
+.facebook {
+    background-color: #3b5998;
+        }
 
 .twitter:hover {background-color: #0b7bc1;}
  
-.facebook {
-    background-color: #3b5998;
-    color: white;
-    padding: 10px 0 10px 0;
-    display: block;
-    text-align: center;
-    border-radius: 5px;
-}
+
 .facebook:hover {background-color: #2b406e;}
  
